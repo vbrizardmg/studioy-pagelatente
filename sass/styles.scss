@@ -1,53 +1,77 @@
 @import 'reset';
 /* -------- GENERAL ---------- */
-body{
-	width:100%;
-	background-image: url('image_css/fleur.svg'),url('image_css/bg_320.png');
-	background-repeat:no-repeat;
-	background-size:100%,cover;
-	background-position:-500px 320px, 0 0;
-	background-opacity:0.2;
-	font-family: 'Montserrat', sans-serif;
-	font-size:100%;
-	font-weight:400;
 
-}
-.clearfix{
-	clear:both;
-}
-p{
-	font-size:1.8em;
-}
-#courriel{
-	width:35%;
-	padding:25px 14px;
-	background-color:#FFF;
-	text-align:center;
-	font-weight:700;
-	a:link, a:visited, a:active{
-		text-decoration: none;
-		color: #8AC591;
+//@media only screen{
+	body{
+		width:100%;
+		background-image: url('image_css/fleur.svg'),url('image_css/bg_320.png');
+		background-repeat:no-repeat;
+		background-size:100%,cover;
+		background-position:-500px 320px, 0 0;
+		font-family: 'Montserrat', sans-serif;
+		font-size:100%;
+		font-weight:400;
+
 	}
-}
-#infos{
-	width:100%;
-	margin:0 6%;
-	#courriel,#ouverture{
-		float:left;
-		text-transform: uppercase;
+	.clearfix{
+		clear:both;
 	}
-}
-#ouverture{
-	margin:25px 0 0 3%;
-	color:#FFF;
-}
-#logo{
-	width:60%;
-	position:absolute;
-	top:180px;
-	left:20%;
-}
-#accroche{
-	width:80%;
-	margin:60% 0 0 6%;
+	p{
+		font-size:1.8em;
+	}
+	#courriel{
+		width:35%;
+		padding:25px 14px;
+		background-color:#FFF;
+		text-align:center;
+		font-weight:700;
+		a:link, a:visited, a:active{
+			text-decoration: none;
+			color: #8AC591;
+		}
+	}
+	#infos{
+		width:100%;
+		margin:0 6%;
+		#courriel,#ouverture{
+			float:left;
+			text-transform: uppercase;
+		}
+	}
+	#ouverture{
+		margin:25px 0 0 3%;
+		color:#FFF;
+	}
+	#logo{
+		width:60%;
+		position:absolute;
+		top:180px;
+		left:20%;
+	}
+	#accroche{
+		width:80%;
+		margin:60% 0 0 6%;
+	}
+//}
+
+ @media (min-width: 768px) { 
+	/* min-width 641px, medium screens */
+	body{
+		background-image: url('image_css/fleur.svg'),url('image_css/bg_768.png');
+		background-size:100%;
+    }
+    p{
+		font-size:1em;
+	}	
+    #courriel{
+		width:20%;
+	}
+	#logo{
+		width:40%;
+	}
+	#accroche{
+		width:50%;
+		margin:50% 0 0 6%;
+	}
+
 }
