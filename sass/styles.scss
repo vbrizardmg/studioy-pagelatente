@@ -94,3 +94,31 @@
 	}
 
 }
+ @media only screen 
+ 	and (min-width: 1024px)
+ 	and (orientation:landscape) { 
+	/* min-width 1024px, medium screens, landscape */
+	body{
+		background-image: url('image_css/fleur.svg'),url('image_css/bg_1024.png');
+		background-size:85%,100%;
+		background-position:-420px 120px, 0 0;
+    }
+	#infos{
+		width:85%;
+		#courriel,#ouverture{
+			float:left;
+		}
+	}	
+	#logo{
+		width:25%;
+		top:120px;
+		left:35%;
+
+	}
+	#accroche{
+		width:42%;
+		margin:28% 0 0 6%;
+	}
+
+}
+
