@@ -62,6 +62,7 @@
 	body{
 		background-image: url('image_css/fleur.svg'),url('image_css/bg_768.png');
 		background-size:100%;
+		background-position:-380px 180px, 0 0;
     }
     p{
 		font-size:1em;
@@ -74,6 +75,7 @@
 	}	
     #courriel{
 		width:35%;
+		font-weight: 400;
 	}
 	#ouverture{
 		margin-top:15px;
@@ -81,11 +83,14 @@
 		margin-left: 15px;
 	}
 	#logo{
-		width:40%;
+		width:35%;
+		top:210px;
+		left:30%;
+
 	}
 	#accroche{
-		width:50%;
-		margin:50% 0 0 6%;
+		width:65%;
+		margin:60% 0 0 6%;
 	}
 
 }
