@@ -48,10 +48,10 @@ table {
 /* -------- GENERAL ---------- */
 body {
   width: 100%;
-  background-image: url("image_css/fleur.svg"), url("image_css/bg_320.png");
+  background: url("image_css/bg_320.jpg");
   background-repeat: no-repeat;
-  background-size: 100%,cover;
-  background-position: -160px 100px, 0 0;
+  background-size: cover;
+  background-position: 0 0;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 400; }
@@ -102,9 +102,9 @@ p {
 @media (min-width: 768px) {
   /* min-width 641px, medium screens */
   body {
-    background: url("image_css/fleur.svg") no-repeat, url("image_css/bg_768.png") no-repeat center center fixed;
-    background-size: 100%,cover;
-    background-position: -380px 180px, 0 0; }
+    background: url("image_css/bg_768.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-position: 0 0; }
 
   p {
     font-size: 1em; }
@@ -134,9 +134,9 @@ p {
 @media only screen and (min-width: 1024px) and (orientation: landscape) {
   /* min-width 1024px, medium screens, landscape */
   body {
-    background-image: url("image_css/fleur.svg"), url("image_css/bg_1024.png");
-    background-size: 65%,cover;
-    background-position: -320px 120px, 0 0; }
+    background: url("image_css/bg_1024.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-position: 0 0; }
 
   #logo {
     width: 25%;
@@ -148,9 +148,9 @@ p {
     margin: 28% 0 0 6%; } }
 @media (min-width: 1200px) {
   body {
-    background: url("image_css/fleur.svg") no-repeat, url("image_css/bg_2560.png") no-repeat center center fixed;
-    background-size: 80%,cover;
-    background-position: 0% -200px, 0 0;
+    background: url("image_css/bg_2560.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-position: 0 0;
     overflow: hidden; }
 
   #logo {
