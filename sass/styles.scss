@@ -23,7 +23,7 @@
 		padding:15px 8px;
 		background-color:#FFF;
 		text-align:center;
-		font-weight:700;
+		font-weight:400;
 		box-sizing:border-box;
 			-moz-box-sizing:border-box;
 			-webkit-box-sizing:border-box;
@@ -39,6 +39,7 @@
 		display: block;
 		#courriel,#ouverture{
 			text-transform: uppercase;
+			letter-spacing: 1px;
 		}
 	}
 	#ouverture{
@@ -60,8 +61,8 @@
  @media (min-width: 768px) { 
 	/* min-width 641px, medium screens */
 	body{
-		background-image: url('image_css/fleur.svg'),url('image_css/bg_768.png');
-		background-size:100%;
+		background: url('image_css/fleur.svg') no-repeat,url('image_css/bg_768.png') no-repeat center center fixed;
+		background-size:100%,cover;
 		background-position:-380px 180px, 0 0;
     }
     p{
@@ -100,15 +101,9 @@
 	/* min-width 1024px, medium screens, landscape */
 	body{
 		background-image: url('image_css/fleur.svg'),url('image_css/bg_1024.png');
-		background-size:85%,100%;
-		background-position:-420px 120px, 0 0;
-    }
-	#infos{
-		width:85%;
-		#courriel,#ouverture{
-			float:left;
-		}
-	}	
+		background-size:65%,cover;
+		background-position:-320px 120px, 0 0;
+    }	
 	#logo{
 		width:25%;
 		top:120px;
@@ -121,4 +116,56 @@
 	}
 
 }
+
+ @media (min-width: 1200px) {
+ 		body{
+		background: url('image_css/fleur.svg') no-repeat,url('image_css/bg_2560.png') no-repeat center center fixed;
+		background-size:80%,cover;
+		background-position:0% -200px, 0 0;
+		overflow: hidden;
+    }	
+    #logo{
+		width:20%;
+		top:50px;
+		left:38%;
+	}
+	#infos{
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		#courriel,#ouverture{
+			float:right;
+		}
+	}
+	#courriel{
+		width:25%;
+		margin:0;
+
+	}
+	#courriel{
+		a:link,a:visited,a:active{
+			padding: 25px 20px 25px 20px;
+		}
+	}
+	#ouverture{
+		margin-top:15px;
+		margin-right: 25px;
+	}
+	#accroche{
+		width:28%;
+		margin:400px 0 0 6%;
+	}
+
+
+ }
+ @media (min-width: 1900px){
+ 	#accroche{
+		width:28%;
+		margin:500px 0 0 6%;
+	}
+	#logo{
+		width:15%;
+		left: 40%;
+	}
+ }
 
