@@ -156,7 +156,7 @@ p {
   #logo {
     width: 20%;
     top: 50px;
-    left: 38%; }
+    left: 40%; }
 
   #infos {
     position: absolute;
@@ -185,7 +185,6 @@ p {
     margin: 500px 0 0 6%; }
 
   #logo {
-    width: 15%;
     left: 40%; } }
 
 /*# sourceMappingURL=styles.css.map */

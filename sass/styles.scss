@@ -58,7 +58,7 @@
 		margin:50% 0 0 7%;
 	}
 
- @media (min-width: 768px) { 
+ @media (min-width: 768px) {
 	/* min-width 641px, medium screens */
 	body{
 		background: url('image_css/bg_768.jpg') no-repeat center center fixed;
@@ -73,7 +73,7 @@
 		#courriel,#ouverture{
 			float:left;
 		}
-	}	
+	}
     #courriel{
 		width:35%;
 		font-weight: 400;
@@ -95,15 +95,15 @@
 	}
 
 }
- @media only screen 
+ @media only screen
  	and (min-width: 1024px)
- 	and (orientation:landscape) { 
+ 	and (orientation:landscape) {
 	/* min-width 1024px, medium screens, landscape */
 	body{
 		background:url('image_css/bg_1024.jpg') no-repeat center center fixed;
 		background-size:cover;
 		background-position:0 0;
-    }	
+    }
 	#logo{
 		width:25%;
 		top:120px;
@@ -123,11 +123,11 @@
 		background-size:cover;
 		background-position:0 0;
 		overflow: hidden;
-    }	
+    }
     #logo{
 		width:20%;
 		top:50px;
-		left:38%;
+		left:40%;
 	}
 	#infos{
 		position: absolute;
@@ -164,8 +164,7 @@
 		margin:500px 0 0 6%;
 	}
 	#logo{
-		width:15%;
+		//width:15%;
 		left: 40%;
 	}
  }
-
