@@ -92,11 +92,12 @@
 	#accroche{
 		width:65%;
 		margin:60% 0 0 6%;
+		min-height: 20%;
 	}
 
 }
  @media only screen
- 	and (min-width: 1024px)
+ 	and (min-width: 800px)
  	and (orientation:landscape) {
 	/* min-width 1024px, medium screens, landscape */
 	body{
