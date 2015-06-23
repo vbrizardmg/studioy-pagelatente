@@ -152,10 +152,11 @@ p {
     background: url("image_css/bg_2560.jpg") no-repeat center center fixed;
     background-size: cover;
     background-position: 0 0;
-    overflow: hidden; }
+    overflow: hidden;
+    min-height: 500px; }
 
   #logo {
-    width: 20%;
+    width: 15%;
     top: 50px;
     left: 40%; }
 
@@ -179,7 +180,10 @@ p {
 
   #accroche {
     width: 28%;
-    margin: 23% 0 0 6%; } }
+    margin: 0 0 0 6%;
+    position: absolute;
+    bottom: 2%;
+    left: 0; } }
 @media (min-width: 1900px) {
   #accroche {
     width: 28%;
